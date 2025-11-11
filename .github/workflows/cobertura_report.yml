@@ -77,8 +77,8 @@ jobs:
           name: coverageReportFHNew.xml
           path: coverageReportFHNew.xml
 
-      - name: Debug Coverage File
-        run: coverageReportFH.xml
+      # - name: Debug Coverage File
+      #   run: coverageReportFH.xml
 
       - name: Code Coverage Summary Report
         uses: irongut/CodeCoverageSummary@v1.3.0
