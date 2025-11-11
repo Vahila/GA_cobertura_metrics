@@ -1,44 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<coverage branch-rate="0.75" branches-covered="6" branches-valid="8" complexity="NaN" line-rate="0.8" lines-covered="8" lines-valid="10" timestamp="1762888654.6866" version="">
+<coverage branch-rate="0.8" branches-covered="8" branches-valid="10" complexity="NaN" line-rate="0.83333" lines-covered="10" lines-valid="12" timestamp="1762889492.5577" version="">
   <sources>
-    <source>C:\Users\vkayithi\jenkins_Cobertura_Issue\</source>
+    <source>C:\Users\vkayithi\jenkins_Cobertura_Issue\matlab_mcdc\</source>
   </sources>
   <packages>
-    <package branch-rate="0.75" complexity="NaN" line-rate="0.8" name="">
+    <package branch-rate="0.8" complexity="NaN" line-rate="0.83333" name="">
       <classes>
-        <class branch-rate="0.75" complexity="NaN" filename="computeDiscount.m" line-rate="0.8" name="computeDiscount">
+        <class branch-rate="0.8" complexity="NaN" filename="computeDiscount.m" line-rate="0.83333" name="computeDiscount">
           <methods/>
           <lines>
-            <line branch="true" condition-coverage="50% (1/2)" hits="2" number="3">
+            <line branch="true" condition-coverage="50% (1/2)" hits="3" number="13">
               <conditions>
                 <condition coverage="0%" number="1" type="jump"/>
                 <condition coverage="100%" number="2" type="jump"/>
               </conditions>
             </line>
-            <line branch="false" hits="0" number="4"/>
-            <line branch="true" condition-coverage="100% (2/2)" hits="2" number="7">
+            <line branch="false" hits="0" number="14"/>
+            <line branch="true" condition-coverage="100% (2/2)" hits="3" number="18">
               <conditions>
                 <condition coverage="100%" number="1" type="jump"/>
                 <condition coverage="100%" number="2" type="jump"/>
               </conditions>
             </line>
-            <line branch="false" hits="1" number="8"/>
-            <line branch="true" condition-coverage="50% (1/2)" hits="1" number="9">
-              <conditions>
-                <condition coverage="100%" number="1" type="jump"/>
-                <condition coverage="0%" number="2" type="jump"/>
-              </conditions>
-            </line>
-            <line branch="false" hits="1" number="10"/>
-            <line branch="false" hits="0" number="12"/>
-            <line branch="true" condition-coverage="100% (2/2)" hits="2" number="15">
+            <line branch="false" hits="1" number="19"/>
+            <line branch="true" condition-coverage="100% (2/2)" hits="2" number="20">
               <conditions>
                 <condition coverage="100%" number="1" type="jump"/>
                 <condition coverage="100%" number="2" type="jump"/>
               </conditions>
             </line>
-            <line branch="false" hits="1" number="16"/>
-            <line branch="false" hits="2" number="19"/>
+            <line branch="false" hits="1" number="21"/>
+            <line branch="false" hits="1" number="23"/>
+            <line branch="true" condition-coverage="100% (2/2)" hits="3" number="27">
+              <conditions>
+                <condition coverage="100%" number="1" type="jump"/>
+                <condition coverage="100%" number="2" type="jump"/>
+              </conditions>
+            </line>
+            <line branch="false" hits="1" number="28"/>
+            <line branch="true" condition-coverage="50% (1/2)" hits="3" number="32">
+              <conditions>
+                <condition coverage="0%" number="1" type="jump"/>
+                <condition coverage="100%" number="2" type="jump"/>
+              </conditions>
+            </line>
+            <line branch="false" hits="0" number="33"/>
+            <line branch="false" hits="3" number="37"/>
           </lines>
         </class>
       </classes>
